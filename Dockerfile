@@ -7,4 +7,4 @@ COPY . .
 
 RUN npm install -g serve
 
-CMD serve -s /usr/src/app/src
+CMD serve /usr/src/app/src
