@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, #ffffff 0%, #f3f8f7 49.91%, #fff9f5 94.19%);
+  font-family: 'Lato', sans-serif;
+  color: #54575a
+}
+
+.wrapper{
+  position: relative;
+  width: 1440px;
+  height: 1379px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height:67px;
+}
+
+.text{
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 221px;
+  top: 403px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height:32px;
+}
+
+.brand-img{
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  left: 221px;
+  top: 50.25px;
+}
+
+.app-store-btn{
+  position: absolute;
+  left: 221px;
+  top: 600px;
+}
+
+.app-store-btn img{
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.google-play-btn{
+  position: absolute;
+  left: 381.81px;
+  top: 600px;
+}
+
+.google-play-btn img{
+  width: 156.19px;
+  height: 46.28px;
+}
+
+.main-image-container{
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image-container img{
+  height: 411.15px;
+}
+
+.profile-img{
+    position: absolute;
+    height: 444px;
+    left: 737px;
+    top: 686px;
+    right: 479px;
+}
+
+.product-img{
+    position: absolute;
+    height: 222px;
+    left: 737px;
+    top: 1157px;
+    right: 479px;
+}
+
+.orders-img{
+    position: absolute;
+    height: 470px;
+    left: 479px;
+    top: 913px;
+    right: 737px;
+}
+
+.cart-img{
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  top: 1157px;
+  right: 995px;
+}
+
+.home-img{
+  position: absolute;
+  height: 470px;
+  left: 995px;
+  top: 908px;
+  right: 221px;
+}
+
+/* Background Toogles */
+
+.background-toogles{
+  position: absolute;
+  right:250px;
+  top: 40px;
+  display: flex;
+}
+
+.background-toogles > div{
+  height: 25px;
+  width:25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Backgrounds */
+.background-1{
+  background-color: #e5e3e8;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%23cac7d0' fill-opacity='0.26'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-2{
+  background-color: #f6f6f6;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23acabac' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-3{
+background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
