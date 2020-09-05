@@ -1,0 +1,11 @@
+language: generic
+
+services:
+  - docker
+
+
+script:
+- docker build -t kama93/byte-size:$TRAVIS_BUILD_NUMBER .
+- docker images
+- echo "$DOCKER_TOKEN" | docker login -u kama93 --password-stdin
+- docker push kama93/byte-size:$TRAVIS_BUILD_NUMBER
