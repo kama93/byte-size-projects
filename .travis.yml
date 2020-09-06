@@ -8,7 +8,7 @@ env:
     secure: J+6ILEB/lHqlb7D/ovLbAx2DaNNo68cxc1R5fLAciKFEdNWxpf4xlni5ypIvJwx8R2KStvCYaiISFoMpan/Ew3FMhcIicJm5PLNjRWBnwE+HOfMx7LMOZ09y6RjjFMKFrCgcQECZO1XJpiSWfE+kDvWF1/MPxqNpdW+FBwQndp5Moo8uYG3eUxrWN69RGeWaNaKEOauRkPP9lYVGFpJTMCXeAFsShZJJpacID98GMlUjvkW0C2nm8C9inznnm7arrHA514zqxX/xL6Ig2JthGFNKm/86A85mLe4qmflnpCW9gR29rfEFG858yEXARKfvi4y6itWzNlOCiMoHQHnuPioIkEueF1PafiqC59c16mUl7YtA/YKhN+UuoPJx9NK7Ox3cE8Q9/nmfdB7wGHBAseGqstQatJ2nEesitZsqDRFsxftM2d39YRJbeLQlox11QLl4m4D5Hs8FZSdo6MufOQWRXQKyHIdfVFlJT9hXOacZRE+u06h+DMMoTrlHsu1FDVFAEgGIfvWvzYTzqSQQHCEPTmBhibZkQl2R3LjaVxh/84qlhSRLrvyXZPXnvZxFHfj2XkH7vMDSCBnDzPSVGPNnVMjHzysf3gXjrZ382otXkXzEC+8OlvQ3IuAhlYUNttDYcnvUc6oh4uHOpMf4WJhLGJyESzi4hkmkZ0dqHt8=
 
 script:
-- docker build -t kama93/byte-size:$TRAVIS_BUILD_NUMBER .
+- docker build -t kama93/byte-size:latest .
 - docker images
 - echo "$DOCKER_TOKEN" | docker login -u kama93 --password-stdin
-- docker push kama93/byte-size:$TRAVIS_BUILD_NUMBER
+- docker push kama93/byte-size:latest
